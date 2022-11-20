@@ -4,6 +4,7 @@
   <script src="/src/aframe-v1.1.0.min.js"></script>
   <script src="/src/physics/aframe-physics-system.js"></script>
   <script src="/src/extras/aframe-extras.js"></script>
+  <script src="/src/aframe-inspector.min.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
       <a-asset-item id="main-mtl" src="/model/test.vox.mtl"></a-asset-item>
     </a-assets>
     <a-sky src="#sky"></a-sky>
-    <a-entity id="rig" movement-controls="speed: 0.1" position="0 0 0" kinematic-body>
+    <a-entity id="rig" movement-controls="speed: 0.3" position="0 0 0" kinematic-body>
       <a-entity camera position="0 1 0" look-controls="pointerLockEnabled: true">
         <a-cursor color="white"></a-cursor>
       </a-entity>
